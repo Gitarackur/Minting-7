@@ -10,4 +10,13 @@
     text-fill-color: transparent;
   }
   
+
+.test {
+    background-image: url('/images/section-2-bg-img.svg');
+    
+     /* background-color: #F39F72; */
+    background-size: contain;
+    background-position: center 200%;
+    background-repeat: no-repeat;
+}
   

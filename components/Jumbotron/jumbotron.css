@@ -36,12 +36,3 @@
   font-size: 40px;
   line-height: 54px;
 }
-
-
-
-.example1 {
-    /* background-image: url(/images/section-3-bg-img.png), url(paper.gif); */
-    background-image: url(/images/section-3-bg-img.png);
-    background-position: right bottom, left top;
-    background-repeat: no-repeat, repeat;
-  }

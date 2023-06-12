@@ -5,16 +5,9 @@ import './interactive-section.css';
 
 const InteractiveAdvertisementSection = () => {
   return (
-    <section className="example1 min-h-[824px] relative  h-screen">
-        {/* bg-[url('/images/section-3-bg-img.png')] */}
-        {/* <div className="absolute top-0">
-          <svg className="h-full w-full" width="1440" height="824" viewBox="0 0 1440 937" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M2239.4 937.239C2239.4 814.214 2200.07 692.395 2123.65 578.735C2047.22 465.075 1935.21 361.801 1794 274.81C1652.79 187.818 1485.15 118.813 1300.65 71.7337C1116.15 24.6543 918.403 0.422846 718.701 0.422852C519 0.422857 321.254 24.6543 136.754 71.7337C-47.7459 118.813 -215.387 187.819 -356.597 274.81C-497.807 361.801 -609.821 465.075 -686.244 578.735C-762.666 692.395 -802 814.214 -802 937.239L718.701 937.239H2239.4Z" fill="#17191E"/>
-          </svg>
-        </div> */}
-
-        <div className="mt-[101px] mx-auto max-w-[1104px]">
-          <div>
+    <section className="bg-no-repeat bg-[url(/images/section-3-bg-img.svg)] min-h-[1000px] md:min-h-[1000px] h-full bg-contain md:bg-cover relative flex items-center">
+        <div className="pt-[0px] mx-auto max-w-[1104px] w-full">
+          <div className='h-full'>
             <div className="py-8 md:py-0 md:mb-[90px] flex items-center justify-center">
               <h1 className="font-['Space_Grotesk'] font-[500] text-[48px] leading-[100%] text-[#FFFFFF] text-center">
                 Interactive Advertisement
