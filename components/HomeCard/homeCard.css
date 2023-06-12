@@ -6,7 +6,7 @@
     height: 100%;
     position: relative;
     background: #1E1E1E !important;
-    transition: opacity 0.5s all;
+    transition: all 0.5s;
 }
 
 .card::before {
@@ -29,7 +29,7 @@
 
 .card:hover {
     background: #0F1011 !important;
-    transition: opacity 0.5s all;
+    transition: all 0.5s;
 }
 
 .card:hover::before {
