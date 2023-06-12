@@ -1,0 +1,14 @@
+.interactive-advertisement-content-1 {
+    background: rgba(20, 20, 20, 0.4);
+    border: 1px solid #FFA5E6;
+    box-shadow: 0px 0px 16px rgba(23, 23, 23, 0.05);
+    backdrop-filter: blur(16px);
+    border-radius: 8px;
+  }
+
+.example1 {
+  /* background-image: url(/images/section-3-bg-img.png), url(paper.gif); */
+  background-image: url(/images/section-3-bg-img.png);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+}
