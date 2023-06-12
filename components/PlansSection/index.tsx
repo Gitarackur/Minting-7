@@ -46,7 +46,7 @@ const PlansSection = () => {
   return (
     <section className="">
       <div className="md:flex md:justify-center md:mx-auto max-w-[1104px]">
-        <div className="md:mt-[107.4px] md:mb-[138.42px]">
+        <div className="md:mb-[138.42px]">
           <div className="md:mb-[107px]">
             <h1 className="font-['Space_Grotesk'] font-[500] text-[48px] leading-[100%] text-[#FFFFFF] block text-center">
               the Future of Data Ownership
