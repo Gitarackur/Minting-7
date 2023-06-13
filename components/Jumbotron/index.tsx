@@ -6,7 +6,7 @@ import "./jumbotron.css";
 const Jumbotron = () => {
   return (
     <section
-      className="ml-auto max-w-[1271px] flex items-center min-h-screen h-full md:min-h-[700.05px] 
+      className="px-2 md:px-0 ml-auto max-w-[1271px] flex items-center min-h-screen h-full md:min-h-[700.05px] 
         bg-[url('/images/jumbotron-img.png')] bg-cover md:bg-contain bg-no-repeat"
     >
       <div className="mr-auto md:w-[1037px]">
