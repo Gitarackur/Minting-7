@@ -5,11 +5,13 @@ import './interactive-section.css';
 
 const InteractiveAdvertisementSection = () => {
   return (
-    <section className="bg-no-repeat bg-[url(/images/section-3-bg-img.svg)] min-h-[1000px] md:min-h-[1000px] h-full bg-contain md:bg-cover relative flex items-center">
+    <section className="bg-no-repeat bg-[url(/images/section-3-bg-img.svg)] min-h-[1000px] md:min-h-[1000px] w-full h-full 
+        bg-cover relative flex items-center"
+    >
         <div className="pt-[0px] mx-auto max-w-[1104px] w-full">
           <div className='h-full'>
             <div className="py-8 md:py-0 md:mb-[90px] flex items-center justify-center">
-              <h1 className="font-['Space_Grotesk'] font-[500] text-[48px] leading-[100%] text-[#FFFFFF] text-center">
+              <h1 className="font-['Space_Grotesk'] font-[500] text-[30px] md:text-[48px] leading-[100%] text-[#FFFFFF] text-center">
                 Interactive Advertisement
               </h1>
             </div>
