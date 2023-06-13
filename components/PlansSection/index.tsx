@@ -54,11 +54,11 @@ const PlansSection = () => {
           </div>
 
           <div className="md:mt-[107px]">
-            <div className="md:flex md:flex-wrap md:-mx-[22.75px] md:-my-[22.75px]">
+            <div className="md:flex md:flex-wrap md:-mx-[22.75px] -my-[22.75px] md:-my-[22.75px]">
               {plans &&
                 plans.map((curr: any, idx) => {
                   return (
-                    <div className="md:w-6/12 lg:w-4/12 md:px-[22.75px] md:py-[22.75px]" key={idx}>
+                    <div className="md:w-6/12 lg:w-4/12 py-[22.75px] md:px-[22.75px] md:py-[22.75px]" key={idx}>
                       <HomeCard data={curr} />
                     </div>
                   );
