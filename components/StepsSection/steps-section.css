@@ -1,8 +1,5 @@
 .gradient-text {
     font-family: 'Test Söhne';
-    font-size: 32px;
-    line-height: 100%;
-    letter-spacing: 0.1em;
     background: linear-gradient(90deg, #F39F72 0%, #F8858D 46.35%, #FF69AC 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -13,8 +10,6 @@
 
 .test {
     background-image: url('/images/section-2-bg-img.svg');
-    
-     /* background-color: #F39F72; */
     background-size: contain;
     background-position: center 200%;
     background-repeat: no-repeat;
