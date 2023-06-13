@@ -35,9 +35,9 @@ const StepsSection = () => {
                     pl-[16px] pt-[24px] pb-[24px] pr-[12.1px]"
                                 >
                                     {steps &&
-                                        steps.map((curr) => {
+                                        steps.map((curr, idx) => {
                                             return (
-                                                <div className="py-3.5 flex items-center text-['Test_Söhne'] text-[16px] leading-[100%] text-[#8F8F8F]">
+                                                <div className="py-3.5 flex items-center text-['Test_Söhne'] text-[16px] leading-[100%] text-[#8F8F8F]" key={idx}>
                                                     <DefaultBullet />
                                                     <p className="ml-11"> {curr.name} </p>
                                                 </div>
