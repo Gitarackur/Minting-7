@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: "Test Söhne";
-  src: url("../public/fonts/TestSöhne-Buch.otf");
+  src: url("/fonts/TestSöhne-Buch.otf");
 }
 
 @font-face {
   font-family: "Space Grotesk";
-  src: url("../public/fonts/SpaceGrotesk-Regular.ttf");
+  src: url("/fonts/SpaceGrotesk-Regular.ttf");
 }
 
 :root {
