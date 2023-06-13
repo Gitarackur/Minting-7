@@ -9,7 +9,7 @@ const Navbar = () => {
   const [toggleNavbar, setToggleNavbar] = useState<boolean>(false);
 
   return (
-    <nav className="w-full bg-[#17191E99] text-white min-h-[60px] pt-[19px] pb-[21px]">
+    <nav className="px-4 md:px-0 w-full bg-[#17191E99] text-white min-h-[60px] pt-[19px] pb-[21px]">
       <div className="flex flex-wrap items-center justify-between md:mx-auto max-w-[1104px]">
         <div className="w-6/12 md:w-auto">
           <h1 className="font-['Test_Söhne'] text-[20px] leading-[100%] tracking-[0.1em] text-[#FFFFFF] font-bold">
@@ -86,7 +86,7 @@ const Navbar = () => {
 
                 <div className="ml-[7px]">
                   <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M3 5L6 8L9 5" stroke="#D4D4D4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3 5L6 8L9 5" stroke="#D4D4D4" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </div>
               </div>
