@@ -32,8 +32,7 @@ const StepsSection = () => {
                             <div className="md:w-6/12 py-4">
                                 <div
                                     className="bg-[rgba(20,20,20,0.4)] border-[#0F1011] drop-shadow:-[0px_0px_16px_rgba(55,55,55,0.05)] backdrop-blur-[1px] rounded-[8px]
-                    pl-[16px] pt-[24px] pb-[24px] pr-[12.1px]
-                "
+                    pl-[16px] pt-[24px] pb-[24px] pr-[12.1px]"
                                 >
                                     {steps &&
                                         steps.map((curr) => {
