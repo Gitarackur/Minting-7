@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "Test Söhne";
-  src: url("/fonts/TestSöhne-Buch.otf");
+  src: local('Test Söhne'), url("/fonts/TestSöhne-Buch.otf");
 }
 
 @font-face {
